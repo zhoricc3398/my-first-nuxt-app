@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Header/>
     <header>
       USERS SECTION
     </header>
@@ -8,7 +9,11 @@
 </template>
 
 <script>
+    import Header from '@/components/Header.vue'
+
     export default {
-        name: "users.vue"
+        components: {
+            Header
+        }
     }
 </script>
